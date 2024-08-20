@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+#header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  padding-bottom: 0;
+}
+#header .h1 {
+  margin: 0;
+}
+#nav {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+#nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 20px;
+
+  display: block;
+}
+#nav ul li a:hover {
+  background-color: bisque;
+  color: #333;
+}
+.container {
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
+.container h2 {
+  text-align: left;
+}
+.posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.post {
+  border-radius: 5px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 10px);
+  padding: 10px;
+}
+.post img {
+  width: 40%;
+  height: auto;
+}
+.post h2 {
+  padding: 15px;
+  margin: 0;
+}
+
+.post p {
+  padding: 0 15px 15px;
+  margin: 0;
+}
+#footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
