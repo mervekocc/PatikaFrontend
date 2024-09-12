@@ -1,0 +1,19 @@
+.cardReceipt {
+  background-color: white;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; 
+}
+.itemlist {
+  display: grid; 
+  grid-template-columns: 2fr 1fr 1fr 1fr; 
+  gap: 10px;
+  align-items: center; 
+}
+
+.a {
+  margin: 0; 
+  text-align: left; 
+  
+}

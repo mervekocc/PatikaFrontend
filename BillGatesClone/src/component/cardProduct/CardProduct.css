@@ -1,0 +1,29 @@
+.cardProducts {
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+}
+.buyButton {
+  background: linear-gradient(to bottom, #75e8ab, #1dbf95);
+  border: 0;
+  padding: 5px 16px;
+  color: white;
+  border-radius: 4px;
+}
+.sellButton:disabled {
+  background-color: #ccc; 
+  color: #666; 
+  cursor: not-allowed; 
+}
+.count {
+  border: 5px #000000;
+  padding: 5px 30px;
+  color: black;
+  border-radius: 4px;
+}
+
+.sellButton {
+  background-color:  #f53b7f;
+  color: white; 
+  border: none; 
+}
